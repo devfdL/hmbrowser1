@@ -39,11 +39,11 @@ function startTime() {
     else if (h >= 4 && h <= 11)
         document.getElementById('msg').innerHTML = "have a good day yaaaa";
     else if (h >= 12 && h <= 17)
-        document.getElementById('msg').innerHTML = "semoga harimu menyenangkan yaa hehehe";
+        document.getElementById('msg').innerHTML = "semoga harinya menyenangkan yaa hehehe";
     else if (h >= 17 && h <= 21)
-        document.getElementById('msg').innerHTML = "bagaimana hari mu? semoga harimu menyenangkan yaa hehehe";
+        document.getElementById('msg').innerHTML = "bagaimana hari nya? semoga harimu menyenangkan yaa hehehe";
     else if (h >= 21 && h <= 24)
-        document.getElementById('msg').innerHTML = "bagaimana hari mu? jangan tidur malem-malem yaaaa";
+        document.getElementById('msg').innerHTML = "bagaimana hari nya? jangan tidur malem-malem yaaaa";
 }
 
 function checkTime(i) {
