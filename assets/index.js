@@ -21,7 +21,7 @@ function startTime() {
     //document.getElementById('date').innerHTML = date;   
     var t = setTimeout(startTime, 500);
     
-    var nama = "Cau."
+    var nama = "Astri."
 
     if (h >= 1 && h <= 4)
         document.getElementById('greet').innerHTML = "Good Nigth, "+nama;
@@ -39,7 +39,7 @@ function startTime() {
     else if (h >= 4 && h <= 11)
         document.getElementById('msg').innerHTML = "have a good day yaaaa";
     else if (h >= 12 && h <= 17)
-        document.getElementById('msg').innerHTML = "semoga harinya menyenangkan yaa hehehe";
+        document.getElementById('msg').innerHTML = "semoga hari nya menyenangkan yaa hehehe";
     else if (h >= 17 && h <= 21)
         document.getElementById('msg').innerHTML = "bagaimana hari nya? semoga harimu menyenangkan yaa hehehe";
     else if (h >= 21 && h <= 24)
