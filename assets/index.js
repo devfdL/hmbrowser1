@@ -21,7 +21,7 @@ function startTime() {
     //document.getElementById('date').innerHTML = date;   
     var t = setTimeout(startTime, 500);
     
-    var nama = "Astri."
+    var nama = "nadia."
 
     if (h >= 1 && h <= 4)
         document.getElementById('greet').innerHTML = "Good Nigth, "+nama;
@@ -39,11 +39,11 @@ function startTime() {
     else if (h >= 4 && h <= 11)
         document.getElementById('msg').innerHTML = "have a good day yaaaa";
     else if (h >= 12 && h <= 17)
-        document.getElementById('msg').innerHTML = "semoga hari nya menyenangkan yaa hehehe";
+        document.getElementById('msg').innerHTML = "semoga harimu menyenangkan yaa hehehe";
     else if (h >= 17 && h <= 21)
-        document.getElementById('msg').innerHTML = "bagaimana hari nya? semoga harimu menyenangkan yaa hehehe";
+        document.getElementById('msg').innerHTML = "bagaimana hari mu? semoga harimu menyenangkan yaa hehehe";
     else if (h >= 21 && h <= 24)
-        document.getElementById('msg').innerHTML = "bagaimana hari nya? jangan tidur malem-malem yaaaa";
+        document.getElementById('msg').innerHTML = "bagaimana hari mu? jangan tidur malem-malem yaaaa";
 }
 
 function checkTime(i) {
@@ -62,7 +62,8 @@ function typeWriter(txt) {
   }
 }
 
-
+// 186, 2, 2
+// 230, 18, 18
 var nodesjs = new NodesJs({
     id: 'nodes',
     width: window.innerWidth,
@@ -71,8 +72,8 @@ var nodesjs = new NodesJs({
     lineSize: 1,
     particleColor: [255, 255, 255, 0.3],
     lineColor: [255, 255, 255],
-    backgroundFrom: [0, 0, 0],
-    backgroundTo: [0, 0, 0],
+    backgroundFrom: [87, 176, 83],
+    backgroundTo: [70, 156, 65],
     backgroundDuration: 4000,
     nobg: false,
     number: window.hasOwnProperty('orientation') ? 30: 100,
@@ -109,33 +110,3 @@ function ytvid() {
     document.getElementById('myText').value = '';
 }
 
-Webcam.set({
-    width: 320,
-    height: 240,
-    image_format: 'jpeg',
-    jpeg_quality: 90
-   });
-   Webcam.attach( '#my_camera' );
-  
-
-  function take_snapshot() {
-   
-   // take snapshot and get image data
-   Webcam.snap( function(data_uri) {
-    // display results in page
-    document.getElementById('results').innerHTML = 
-    '<img src="'+data_uri+'"/>';
-    } );
-    setTimeout(2000)
-    var x = document.getElementById("camBox");
-    x.style.display = "none";
-  }
-
-  function camBox() {
-    var x = document.getElementById("camBox");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }  
