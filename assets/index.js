@@ -21,7 +21,7 @@ function startTime() {
     //document.getElementById('date').innerHTML = date;   
     var t = setTimeout(startTime, 500);
     
-    var nama = "nadia."
+    var nama = "ziaa."
 
     if (h >= 1 && h <= 4)
         document.getElementById('greet').innerHTML = "Good Nigth, "+nama;
