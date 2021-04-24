@@ -23,7 +23,7 @@ function startTime() {
     
     var nama = "ziaa."
 
-    if (h >= 24 && h <= 4)
+    if (h >= 1 && h <= 4)
         document.getElementById('greet').innerHTML = "Good Nigth, "+nama;
     else if (h >= 4 && h <= 11)
         document.getElementById('greet').innerHTML = "Good Morning, "+nama;
